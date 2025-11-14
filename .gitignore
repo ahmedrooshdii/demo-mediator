@@ -1,0 +1,148 @@
+############################
+# Visual Studio
+############################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx
+
+############################
+# Build results
+############################
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+
+############################
+# .NET Core
+############################
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Generated launch settings
+Properties/launchSettings.json
+
+############################
+# EF Core Migrations (optional)
+############################
+# لو عايز تمنع رفع الـ migrations احذف التعليق
+#migrations/
+#**/Migrations/
+
+############################
+# NuGet
+############################
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+.nuget/
+*.cache/
+
+############################
+# Logs
+############################
+*.log
+*.tlog
+
+############################
+# User-specific files
+############################
+*.rsuser
+*.resharper.user
+*.DotSettings.user
+
+############################
+# Rider
+############################
+.idea/
+*.sln.iml
+
+############################
+# VS Code
+############################
+.vscode/
+.history/
+*.code-workspace
+
+############################
+# Temporary files
+############################
+*.tmp
+*.temp
+*.bak
+*.swp
+*$~
+*.pid
+
+############################
+# ASP.NET Core
+############################
+wwwroot/lib/
+wwwroot/node_modules/
+App_Data/
+
+############################
+# Node / Angular / React
+############################
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+pnpm-lock.yaml
+
+dist/
+dist-ssr/
+out-tsc/
+.angular/
+coverage/
+
+############################
+# Blazor WebAssembly
+############################
+wwwroot/*.gz
+wwwroot/*.br
+
+############################
+# Publish output
+############################
+publish/
+*.pubxml
+*.pubxml.user
+
+############################
+# Environment files
+############################
+*.env
+*.env.*.local
+
+############################
+# Certificates
+############################
+*.pfx
+*.p12
+*.snk
+
+############################
+# Others
+############################
+Thumbs.db
+Desktop.ini
+*.ds_store
+__pycache__/

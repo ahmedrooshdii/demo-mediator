@@ -1,0 +1,18 @@
+@page "/"
+@inject MediatR.IMediator _mediator;
+<PageTitle>Home</PageTitle>
+
+<ul>
+	@foreach (var person in people)
+	{
+		<li>@person.FirstName @person.LastName</li>
+	}
+</ul>
+
+@code{
+	private List<PersonModel> people;
+	protected override async Task OnInitializedAsync()
+	{
+		people = await _mediator.Send(new GetPersonListQuery());
+	}
+}
